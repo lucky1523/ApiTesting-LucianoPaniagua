@@ -45,6 +45,7 @@ public class ItemsCRUD {
                 .log().all();
         // Update
         body.put("Content","LucianoUpdate");
+
         response=given()
                 .auth()
                 .preemptive()
